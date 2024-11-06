@@ -1,3 +1,5 @@
+# BBS App Directory Structure
+
 bbs-app-php/  
 ├── public/  
 │   ├── index.php                   # スレッド一覧ページのエントリーポイント  
@@ -43,4 +45,8 @@ bbs-app-php/
 │       └── scripts.js              # JavaScriptファイル  
 │
 ├── .gitignore                      # Gitで無視するファイルの設定  
-└── README.md                       # プロジェクトの説明  
+└── README.md                       # プロジェクトの説明 
+
+# BBS App Directory Structure
+
+
