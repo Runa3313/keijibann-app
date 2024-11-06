@@ -1,14 +1,14 @@
-# BBS App Directory Structure
+
 
 bbs-app-php/  
 ├── public/  
-│   ├── index.php                   # スレッド一覧ページのエントリーポイント  
-│   ├── thread_create.php           # スレッド作成ページ  
-│   ├── thread_view.php             # スレッド詳細表示・レス作成ページ  
-│   ├── register.php                # ユーザー登録ページ  
-│   ├── response_create.php         # レス作成ページ  
-│   ├── login.php                   # ログインページ  
-│   └── logout.php                  # ログアウト機能ページ  
+│    ├── index.php                   # スレッド一覧ページのエントリーポイント  
+│    ├── thread_create.php           # スレッド作成ページ  
+│    ├── thread_view.php             # スレッド詳細表示・レス作成ページ  
+│    ├── register.php                # ユーザー登録ページ  
+│    ├── response_create.php         # レス作成ページ  
+│    ├── login.php                   # ログインページ  
+│    └── logout.php                  # ログアウト機能ページ  
 │
 ├── config/  
 │   └── db.php                      # データベース接続設定  
@@ -47,6 +47,6 @@ bbs-app-php/
 ├── .gitignore                      # Gitで無視するファイルの設定  
 └── README.md                       # プロジェクトの説明 
 
-# BBS App Directory Structure
+
 
 
