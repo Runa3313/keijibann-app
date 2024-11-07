@@ -2,7 +2,7 @@
 
 bbs-app-php/  
 ├── public/  
-│    ├── index.php                   # スレッド一覧ページのエントリーポイント  
+│     ├── index.php                   # スレッド一覧ページのエントリーポイント  
 │    ├── thread_create.php           # スレッド作成ページ  
 │    ├── thread_view.php             # スレッド詳細表示・レス作成ページ  
 │    ├── register.php                # ユーザー登録ページ  
