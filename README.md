@@ -9,7 +9,7 @@ bbs-app-php/
 │    ├── response_create.php         # レス作成ページ  
 │    ├── login.php                   # ログインページ  
 │    └── logout.php                  # ログアウト機能ページ  
-│
+│  
 ├── config/  
 │   └── db.php                      # データベース接続設定  
 │
