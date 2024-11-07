@@ -12,17 +12,17 @@ bbs-app-php/
 │  
 ├── config/  
 │   └── db.php                      # データベース接続設定  
-│
+│  
 ├── models/  
 │   ├── Thread.php                  # スレッドモデル  
 │   ├── Response.php                # レスモデル  
 │   └── User.php                    # ユーザーモデル  
-│
+│  
 ├── controllers/  
 │   ├── ThreadController.php        # スレッド関連のコントローラ  
 │   ├── ResponseController.php      # レス関連のコントローラ  
 │   └── UserController.php          # ユーザー関連のコントローラ  
-│
+│  
 ├── views/  
 │   ├── threads/  
 │   │   ├── index.php               # スレッド一覧のビュー  
@@ -34,16 +34,16 @@ bbs-app-php/
 │   │   └── logout.php              # ログアウトのビュー  
 │   └── responses/  
 │       └── create.php              # レス作成のビュー  
-│
+│  
 ├── middleware/  
 │   └── AuthMiddleware.php          # 認証ミドルウェア  
-│
+│  
 ├── assets/  
 │   ├── css/  
 │   │   └── styles.css              # CSSファイル  
 │   └── js/  
 │       └── scripts.js              # JavaScriptファイル  
-│
+│  
 ├── .gitignore                      # Gitで無視するファイルの設定  
 └── README.md                       # プロジェクトの説明 
 
