@@ -2,47 +2,47 @@
 
 bbs-app-php/  
 ├── public/  
-│     ├── index.php                   # スレッド一覧ページのエントリーポイント  
-│    ├── thread_create.php           # スレッド作成ページ  
-│    ├── thread_view.php             # スレッド詳細表示・レス作成ページ  
-│    ├── register.php                # ユーザー登録ページ  
-│    ├── response_create.php         # レス作成ページ  
-│    ├── login.php                   # ログインページ  
-│    └── logout.php                  # ログアウト機能ページ  
+│    &emsp;├── index.php                  &emsp; # スレッド一覧ページのエントリーポイント  
+│    &emsp;├── thread_create.php           &emsp;# スレッド作成ページ  
+│    &emsp;├── thread_view.php             &emsp;# スレッド詳細表示・レス作成ページ  
+│    &emsp;├── register.php                &emsp;# ユーザー登録ページ  
+│    &emsp;├── response_create.php         &emsp;# レス作成ページ  
+│    &emsp;├── login.php                   &emsp;# ログインページ  
+│    &emsp;└── logout.php                  &emsp;# ログアウト機能ページ  
 │  
 ├── config/  
-│   └── db.php                      # データベース接続設定  
+│   &emsp;└── db.php                      &emsp;# データベース接続設定  
 │  
 ├── models/  
-│   ├── Thread.php                  # スレッドモデル  
-│   ├── Response.php                # レスモデル  
-│   └── User.php                    # ユーザーモデル  
+│   &emsp;├── Thread.php                  &emsp;# スレッドモデル  
+│   &emsp;├── Response.php                &emsp;# レスモデル  
+│   &emsp;└── User.php                    &emsp;# ユーザーモデル  
 │  
 ├── controllers/  
-│   ├── ThreadController.php        # スレッド関連のコントローラ  
-│   ├── ResponseController.php      # レス関連のコントローラ  
-│   └── UserController.php          # ユーザー関連のコントローラ  
+│   &emsp;├── ThreadController.php        &emsp;# スレッド関連のコントローラ  
+│   &emsp;├── ResponseController.php      &emsp;# レス関連のコントローラ  
+│   &emsp;└── UserController.php          &emsp;# ユーザー関連のコントローラ  
 │  
 ├── views/  
-│   ├── threads/  
-│   │   ├── index.php               # スレッド一覧のビュー  
-│   │   ├── create.php              # スレッド作成のビュー  
-│   │   └── view.php                # スレッド詳細・レス一覧のビュー  
-│   ├── users/
-│   │   ├── register.php            # ユーザー登録のビュー  
-│   │   ├── login.php               # ログインのビュー  
-│   │   └── logout.php              # ログアウトのビュー  
-│   └── responses/  
-│       └── create.php              # レス作成のビュー  
+│   &emsp;├── threads/  
+│   &emsp;│   &emsp;├── index.php               &emsp;# スレッド一覧のビュー  
+│   &emsp;│   &emsp;├── create.php              &emsp;# スレッド作成のビュー  
+│   &emsp;│   &emsp;└── view.php                &emsp;# スレッド詳細・レス一覧のビュー  
+│   &emsp;├── users/
+│   &emsp;│   &emsp;├── register.php            &emsp;# ユーザー登録のビュー  
+│   &emsp;│   &emsp;├── login.php               &emsp;# ログインのビュー  
+│   &emsp;│   &emsp;└── logout.php              &emsp;# ログアウトのビュー  
+│   &emsp;└── responses/  
+│       &emsp;└── &emsp;create.php              &emsp;# レス作成のビュー  
 │  
 ├── middleware/  
-│   └── AuthMiddleware.php          # 認証ミドルウェア  
+│   &emsp;└── AuthMiddleware.php          &emsp;# 認証ミドルウェア  
 │  
 ├── assets/  
-│   ├── css/  
-│   │   └── styles.css              # CSSファイル  
-│   └── js/  
-│       └── scripts.js              # JavaScriptファイル  
+│   &emsp;├── css/  
+│   &emsp;│   &emsp;└── styles.css              &emsp;# CSSファイル  
+│   &emsp;└── &emsp;js/  
+│       &emsp;&emsp;└── scripts.js              &emsp;# JavaScriptファイル  
 │  
 ├── .gitignore                      # Gitで無視するファイルの設定  
 └── README.md                       # プロジェクトの説明 
